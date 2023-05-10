@@ -1,0 +1,77 @@
+#profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 23px;
+  font-family: 'Gilda Display', serif;
+}
+
+.para-font {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  text-align: center;
+  background-image: url("../images/IMG_9302.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #000000;
+}
+
+/* #button {
+  color: #545454;
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+  border: 0.8px solid #545454;
+  padding: 6px 13px 6px 13px;
+  text-decoration: none;
+} */
+
+#button:hover {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #E8E6E1;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: 3% auto;
+  border-radius: 7px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
